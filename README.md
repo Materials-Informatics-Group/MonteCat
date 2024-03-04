@@ -3,3 +3,9 @@ This script follows the proposed MonteCat algorithm that constructs a Regression
 The generation of the randomized proposals that change the Descriptors used for the Regression model, the decision on whether or not to accept a specific outcome, the evaluation of the Regression models through Cross Validation and the preparation of the results for real time output are carried out by calling specific Functions contained in the 'Functions' subsection. The Main Script comprises the outline of the methodology: first determining the starting point throughb a greedy Descriptor Addition, and then looping for the specified numbers of iterations, generating random Descriptor addition and removal proposals and deciding on adopting them depending on how they improve the performance of the Regression model.
 
 The MonteCat code was written in Python3 and uses the NumPy, pandas and scikit-learn libraries for its calculations. This script only needs an input dataset (the training data) and outputs a report file continuously overwritten in real time detailing the outcomes of each iteration of the algorithm, as well as a filtered training data containing only the descriptor variables at the end of the code's execution and the target variable.
+
+Cite:
+MonteCat: A Basin-Hopping-Inspired Catalyst Descriptor Search Algorithm for Machine Learning Models
+Fernando Garcia-Escobar, Toshiaki Taniike, and Keisuke Takahashi
+J. Chem. Inf. Model. 2024,
+https://doi.org/10.1021/acs.jcim.3c01952
