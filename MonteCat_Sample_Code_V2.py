@@ -2,8 +2,9 @@
 ## Author: < Fernando García Escobar and Keisuke Takahashi>. Hokkaido University 2023-2026
 ## Licence: GNU General Public License (GPL) 3.0
 ## Description: < This script follows the proposed MonteCat algorithm that constructs a Regression Model from a big pool of engineered Descriptors (Features) through an adaptation of
-## the Metropolis-Hastings algorithm. The number of iterations and the Temperature modulating the Acceptance Probability are determined by the user. This updated version enables the 
-## complete removal of  >
+## the Metropolis-Hastings algorithm. The number of iterations and the Temperature modulating the Acceptance Probability are determined by the user. This updated version enables 
+## handling feature families created by engineering 'base features' to avoid feature redundancy throughout the feature search. Result log files are updated periodically for individual 
+## runs with a specific random seed, and global result files (across all tested seeds) are output at the end, with the sampled feature subsets and score metrics for all runs. >
 ## ====================================================================================================================================================================================
 ## Library imports & configurations ===================================================================================================================================================
 
